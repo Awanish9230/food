@@ -1,0 +1,205 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+--primary-text-color:#ec6110;
+--secondary-text-color:#f0670b;
+--accent-color:#eb9b06;
+--accent-color-dark:#ec3e09;
+--padding-inline-section:20px ;
+}
+body{
+font-family: 'Poppins', sans-serif;
+/* color: var(--primary-text-color); */
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;    
+}
+h4{
+    font-size: 1.2rem;   
+}
+h3{
+    font-size: 1.3rem;
+}
+h7{
+    font-size: 3rem;
+}
+h5{
+    font-size: 2rem; 
+    color: #ec3e09;   
+}
+h6{
+    font-size: 6rem;
+}
+
+.container{
+    /* max-width: 1180px; */
+    max-width: 1210px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    background-color: rgba(209, 215, 219, 0.479);
+}
+.container2{
+    /* max-width: 1180px; */
+    max-width: 1210px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    background-color: rgba(209, 215, 219, 0);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.hover-link{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+    font-style: none;
+    text-decoration: none;
+}
+.hover-link:hover{
+    color: var(--accent-color);
+}
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+}
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+.secondary-button{
+    border: .2px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+/* navbar section */
+.navbar{
+    /* position: fixed; */
+    background-color: rgba(209, 215, 219, 0.479);
+    width: 100%;
+    height: 80px;
+    padding-inline: 30px;
+    gap: 32px;
+}
+
+/* search bar */
+.search{
+    background-image: url(a.jpg);
+    height: 700px; 
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   padding-top: 150px;
+   padding-left: 200px;
+}
+
+
+/* special_dishes */
+.label{
+    /* background-color: rgba(209, 215, 219, 0.493); */
+    padding: 20px;
+}
+.dishes{
+    /* background-color: rgba(209, 215, 219, 0.479); */
+    height: 380px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+}
+.dish{
+    border-radius: 5%;
+}
+
+/* trending */
+.top-search{
+    height: 400px;
+    width: 100%;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.items-img-name{
+    background-color: rgba(202, 211, 218, 0.945);
+
+}
+.a23{
+    color: black;
+    text-decoration: none;
+}
+
+/* chef */
+.aa{
+    padding: 40px;
+}
+.aaa{
+    padding: 40px;
+}
+.top-chef{
+    padding: 30px;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* food journal */
+
+.journal-item{
+    padding: 30px;
+    background-color: rgba(202, 211, 218, 0.945);
+    gap: 30px;
+
+}
+.j1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.j2{
+    padding: 20px;
+}
+
+
+
+/* footer */
+footer{
+    padding-block: 80px ;
+    background-color: #2d3136;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+/* sub footer */
+.subfooter{
+    background-color: #dad5c800;
+    padding: var(--padding-inline-section);
+}
+.sub-footer-container{
+    justify-content: center;
+    gap: 30px;
+}
